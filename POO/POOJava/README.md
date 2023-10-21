@@ -50,7 +50,7 @@ public class Cliente {
 }
 ```
 
-# Construtores
+## Construtores
 
 É um método tipo "public NomeDaClasse" que costuma ser usado para iniciar um objeto da classe, estanciando seus atributos. Veja abaixo a classe "Cliente" e a classe CadastroCliente. Uma classe pode ter mais de um construtor
 
@@ -142,3 +142,23 @@ public enum EstadoBrasileiro {
 
 }
 ```
+
+# Encapsulamento
+
+Ato de esconder o que não deve ser visível aos demais elementos.
+Exemplo: Ao ligar o carro, este verifica o câmbio, combustível e bateria. Mas eu não preciso saber disso.
+
+# Herança
+Quando uma classe herda informações de outra. Exemplo das classes Moto e Carro que herdam informações da classe Veiculo
+
+Se uma clase for abstrata e possuir um método abstrato...todas as classes filhas devem ter esse método implementdado; sendo iguais ou não
+
+obs: Classes pai não precisam ser abstratas
+
+# Polimorfismo
+
+Quando há métodos, nomes iguais mas com implementações diferentes. Exemplo das classes abstratas
+
+# Interface
+
+Permite um mesmo objeto ter papeis diferentes na aplicação. Diferenemente das classes abstratas que tem o contrato definido, as interfaces também tem um contrato mas ele é indefinido.
