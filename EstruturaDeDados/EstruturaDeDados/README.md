@@ -31,3 +31,36 @@ Métodos:
     - dequeue: Remove o dado da fila
     - isEmpty: Método para verificar se a pilha está vazia
     - first: Retorna o primeiro nó da fila. O primeiro nó que chegou na fila
+
+## Lista Encadeada
+
+Estrutura semelhante uma fila; porém com referências aos Nós.
+
+Métodos
+    - size: retorna o tamanho da lista
+    - isEmpty: retorna o status da lista (vazia ou não)
+    - add: Add um novo nó
+    - getNo: Busca um nó específico sem retirar da lsita
+    - get(): Busca o conteúdo de um nó específico
+    - remove(): exclui um nó da lista
+
+## Lista Duplamente Encadeada
+
+Estrutura semelhante uma fila; porém com referências aos Nós tanto anteriores como posteriores. Além disso, há duas referências (uma no início e uma no final da lista)
+
+Métodos
+    - size: retorna o tamanho da lista
+    - add: Add um novo nó
+    - getNo: Busca um nó específico sem retirar da lsita
+    - get(): Busca o conteúdo de um nó específico
+    - remove(): exclui um nó da lista
+
+## Listas Circulares
+
+Estrutura que corresponde a uma fila onde o ultimo nó aponta para o primeiro. O primeiro nó é chamado de Cauda e o último nó é chamado de Cabeça.
+
+Métodos
+    - isEmpty: retorna o status da lista (vazia ou não)
+    - add(nó): Add um novo nó
+    - get(index): Busca o conteúdo de um nó específico
+    - remove(): exclui um nó da lista
